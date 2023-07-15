@@ -1,0 +1,20 @@
+ div{
+        background-color: blue;
+        color: white;
+        padding: 15px;
+    }    
+    @media screen and (max-width:999px) and (min-width:780px){
+        div{
+            background-color: pink;
+            color: white;
+            padding: 15px;
+        }    
+    }
+    @media screen and (max-width:699px){
+        div{
+            background-color: green;
+            color: yellow;
+            padding: 15px;
+        }    
+    }
+*{font-family: 'Itim', cursive;}
